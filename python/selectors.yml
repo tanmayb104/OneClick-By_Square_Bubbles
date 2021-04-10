@@ -1,0 +1,56 @@
+name:
+    css: '#productTitle'
+    type: Text
+price:
+    css: '#priceblock_ourprice'
+    type: Text
+short_description:
+    css: '#featurebullets_feature_div'
+    type: Text
+images:
+    css: '.imgTagWrapper img'
+    type: Attribute
+    attribute: data-a-dynamic-image
+rating:
+    css: '.a-icon-alt'
+    type: Text
+number_of_reviews:
+    css: 'a.a-link-normal h2'
+    type: Text
+variants:
+    css: 'form.a-section li'
+    multiple: true
+    type: Text
+    children:
+        name:
+            css: ""
+            type: Attribute
+            attribute: title
+        asin:
+            css: ""
+            type: Attribute
+            attribute: data-defaultasin
+product_description:
+    css: '#productDescription'
+    type: Text
+sales_rank:
+    css: 'li#SalesRank'
+    type: Text
+link_to_all_reviews:
+    css: 'div.card-padding a.a-link-emphasis'
+    type: Link
+
+
+
+#{
+#    "name": "Acer Aspire 5 Slim Laptop, 15.6 inches Full HD IPS Display, AMD Ryzen 3 3200U, Vega 3 Graphics, 4GB DDR4, 128GB SSD, Backlit Keyboard, Windows 10 in S Mode, A515-43-R19L, Silver", 
+#    "price": "$364.99", 
+#    "short_description": "About this item This fits your . Make sure this fits by entering your model number. P.when(\"ReplacementPartsBulletLoader\").execute(function(module){ module.initializeDPX(); }) AMD Ryzen 3 3200U Dual Core Processor (Up to 3.5GHz); 4GB DDR4 Memory; 128GB PCIe NVMe SSD 15.6 inches full HD (1920 x 1080) widescreen LED backlit IPS display; AMD Radeon Vega 3 Mobile Graphics 1 USB 3.1 Gen 1 port, 2 USB 2.0 ports & 1 HDMI port with HDCP support 802.11ac Wi-Fi; Backlit Keyboard; Up to 7.5 hours battery life Windows 10 in S mode. Maximum power supply wattage: 65 Watts \u009b See more product details", 
+#    "images": "{\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX679_.jpg\":[440,679],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX466_.jpg\":[302,466],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX425_.jpg\":[275,425],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX450_.jpg\":[292,450],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX522_.jpg\":[338,522],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX569_.jpg\":[369,569],\"https://images-na.ssl-images-amazon.com/images/I/71vvXGmdKWL._AC_SX355_.jpg\":[230,355]}", 
+#    "rating": null, 
+#    "number_of_reviews": null, 
+#    "variants": null, 
+#    "product_description": "CPU: AMD Ryzen 3 3000-Series |\u00a0\n\nCapacity: 4GB / 128GB |\u00a0\n\nStyle: Notebook only Acer Aspire 5 A515-43-R19L comes with these high level specs: AMD Ryzen 3 3200U Dual-Core Processor 2.6GHz with Precision Boost up to 3.5GHz (Up to 4MB L3 Cache), Windows 10 in S mode, 15.6\" Full HD (1920 x 1080) widescreen LED-backlit IPS Display, AMD Radeon Vega 3 Mobile Graphics, 4GB DDR4 Memory, 128GB PCIe NVMe SSD, True Harmony Technology, Two Built-in Stereo Speakers, Acer Purified. Voice Technology with Two Built-in Microphones, 802.11ac Wi-Fi featuring 2x2 MIMO technology (Dual-Band 2.4GHz and 5GHz), 10/100/1000 Gigabit Ethernet LAN (RJ-45 port), Bluetooth 4.0, Back-lit Keyboard, HD Webcam (1280 x 720), 1 - USB 3.1 Gen 1 Port, 2 - USB 2.0 Ports, 1 - HDMI Port with HDCP support, Lithium-Ion Battery, up to 7.5-hours Battery Life, 3.97 lbs. | 1.8 kg (system unit only) (NX.HG8AA.001).", 
+#    "sales_rank": null, 
+#    "link_to_all_reviews": "/Acer-Display-Graphics-Keyboard-A515-43-R19L/product-reviews/B07RF1XD36/ref=cm_cr_dp_d_show_all_btm?ie=UTF8&reviewerType=all_reviews"
+#}
